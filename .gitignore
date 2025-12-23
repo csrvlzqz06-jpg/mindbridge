@@ -204,4 +204,23 @@ cython_debug/
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# =========================
+# MindBridge specific files
+# =========================
+
+# Trained models
+*.ckpt
+
+# Generated datasets
+data/*.csv
+data/*.npz
+
+# Local virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
 __marimo__/
