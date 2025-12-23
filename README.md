@@ -4,7 +4,7 @@ MindBridge is an AI-based early risk detection engine designed to support studen
 
 This project is developed using Huawei AI technologies, with MindSpore as the core deep learning framework, and is designed to scale on Huawei Cloud and ModelArts.
 
----
+
 
 ## Problem Statement
 
@@ -12,7 +12,7 @@ Educational institutions worldwide face increasing challenges related to student
 
 There is a strong need for a scalable, data-driven, and privacy-preserving system that enables educators to identify early warning signals and take preventive actions before critical academic or emotional deterioration occurs.
 
----
+
 
 ## Solution Overview
 
@@ -24,7 +24,7 @@ MindBridge addresses this challenge by introducing a time-series AI engine that 
 
 The system focuses on trends and temporal patterns rather than isolated events, enabling early detection and continuous monitoring.
 
----
+
 
 ## Key Features
 
@@ -35,7 +35,7 @@ The system focuses on trends and temporal patterns rather than isolated events, 
 - Scalable cloud-ready architecture
 - Ethical-by-design approach for educational environments
 
----
+
 
 ## Data Design
 
@@ -52,7 +52,7 @@ Each student sample represents an 8-week temporal window.
 
 Synthetic data is used in this stage to validate the complete AI pipeline while ensuring privacy and compliance.
 
----
+
 
 ## Model Architecture
 
@@ -65,7 +65,7 @@ The core model is an LSTM-based neural network implemented in MindSpore:
 
 The model is trained and evaluated using MindSpore training and checkpoint mechanisms.
 
----
+
 
 ## Inference and Visualization
 
@@ -78,7 +78,7 @@ A Streamlit-based MVP dashboard demonstrates:
 
 This interface represents the educator-facing layer of MindBridge.
 
----
+
 
 ## Ethical Considerations
 
@@ -90,7 +90,7 @@ The system is designed to:
 - Support educators as a decision-support tool
 - Enable preventive and supportive interventions
 
----
+
 
 ## Technology Stack
 
@@ -101,7 +101,7 @@ The system is designed to:
 - Huawei Cloud (planned deployment)
 - ModelArts (training and scaling – regional stage)
 
----
+
 
 ## Project Status
 
@@ -110,7 +110,7 @@ The system is designed to:
 - Ready for national competition submission
 - Cloud deployment planned for regional stage
 
----
+
 
 ## Disclaimer
 
