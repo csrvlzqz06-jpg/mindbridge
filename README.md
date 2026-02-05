@@ -46,7 +46,7 @@ The MVP uses structured numerical time-series signals that simulate realistic ac
 - Days active per week  
 - Login time variance  
 - Schedule irregularity  
-- Self-reported stress indicator  
+- Late submission rate  
 
 Each student sample represents an 8-week temporal window.
 
