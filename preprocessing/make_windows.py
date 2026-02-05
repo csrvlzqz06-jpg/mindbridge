@@ -8,7 +8,7 @@ FEATURES = [
     "days_active_per_week",
     "assignment_completion_rate",
     "schedule_irregularity",
-    "self_reported_stress",
+    "late_submission_rate",
 ]
 
 def main():
